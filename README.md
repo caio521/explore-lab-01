@@ -30,6 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Node e NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
 - [iMask](https://imask.js.org)
+- [Projeto Hospedado] (https://vercel.com/caio521/explore-lab-01-w5bn)
 
 ## 💻 Projeto
 
