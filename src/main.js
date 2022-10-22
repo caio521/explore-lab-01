@@ -58,7 +58,7 @@ const cardNumberPattern = {
     },
     {
       mask: "0000 0000 0000 0000",
-      cardtype: "defaut",
+      cardtype: "default",
     },
   ],
   dispatch: function (appended, dynamicMasked) {
@@ -106,7 +106,7 @@ cardNumberMasked.on("accept", () => {
 
 function updateCardNumber(number) {
   const ccNumber = document.querySelector(".cc-number")
-
+  console.log(number.length)
   ccNumber.innerText = number.length === 0 ? "1234 5678 9012 3456" : number
 }
 
